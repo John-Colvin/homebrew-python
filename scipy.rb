@@ -1,7 +1,7 @@
 class Scipy < Formula
   homepage 'http://www.scipy.org'
-  url "https://pypi.python.org/packages/source/s/scipy/scipy-0.15.1.tar.gz"
-  sha256 "a212cbc3b79e9a563aa45fc5c517b3499198bd7eb7e7be1e047568a5f48c259a"
+  url "https://pypi.python.org/packages/source/s/scipy/scipy-0.16.0.tar.gz"
+  sha256 "92592f40097098f3fdbe7f5855d535b29bb16719c2bb59c728bce5e7a28790e0"
   head 'https://github.com/scipy/scipy.git'
   revision 1
 
