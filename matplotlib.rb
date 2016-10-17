@@ -46,6 +46,12 @@ class Matplotlib < Formula
     sha256 "71de274749145c379780e6941aaa30f1aec0ac4254156b25e7b32dde5d969d0b" => :mavericks
   end
 
+  devel do
+    url "https://github.com/matplotlib/matplotlib/archive/v2.0.0b4.tar.gz"
+    sha256 "8648dce20b53271720d8c5c439c23c11c220561119242c7fcd14ea10ca2ef3f9"
+    version "2.0.0b4"
+  end
+
   option "without-python", "Build without python2 support"
   depends_on :python => :recommended if MacOS.version <= :snow_leopard
   depends_on :python3 => :optional
