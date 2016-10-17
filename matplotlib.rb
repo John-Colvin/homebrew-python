@@ -35,8 +35,8 @@ end
 class Matplotlib < Formula
   desc "Python 2D plotting library"
   homepage "http://matplotlib.org"
-  url "https://pypi.python.org/packages/source/m/matplotlib/matplotlib-1.5.1.tar.gz"
-  sha256 "3ab8d968eac602145642d0db63dd8d67c85e9a5444ce0e2ecb2a8fedc7224d40"
+  url "https://pypi.python.org/packages/75/4e/2374eed18ac34421ccd7b4907080abd3009e112ca2c11b100c18961312e0/matplotlib-1.5.3.tar.gz"
+  sha256 "a0a5dc39f785014f2088fed2c6d2d129f0444f71afbb9c44f7bdf1b14d86ebbc"
   head "https://github.com/matplotlib/matplotlib.git"
 
   bottle do
@@ -87,18 +87,18 @@ class Matplotlib < Formula
   cxxstdlib_check :skip
 
   resource "setuptools" do
-    url "https://pypi.python.org/packages/source/s/setuptools/setuptools-18.6.1.tar.gz"
-    sha256 "ddb0f4bdd1ac0ceb41abfe561d6196a840abb76371551dbf0c3e59d8d5cde99a"
+    url "https://pypi.python.org/packages/cd/1b/2aaf7aef152a274c687e0441a75f3df5fa1de0144cf3fba856d916558c20/setuptools-28.6.0.tar.gz"
+    sha256 "4fdaf635f2ea815f914d94cfe2f7f856b5d46697defa68fcfb335870707bc2d9"
   end
 
   resource "Cycler" do
-    url "https://pypi.python.org/packages/source/C/Cycler/cycler-0.9.0.tar.gz"
-    sha256 "96dc4ddf27ef62c09990c6196ac1167685e89168042ec0ae4db586de023355bc"
+    url "https://pypi.python.org/packages/source/C/Cycler/cycler-0.10.0.tar.gz"
+    sha256 "cd7b2d1018258d7247a71425e9f26463dfb444d411c39569972f4ce586b0c9d8"
   end
 
   resource "funcsigs" do
-    url "https://pypi.python.org/packages/source/f/funcsigs/funcsigs-0.4.tar.gz"
-    sha256 "d83ce6df0b0ea6618700fe1db353526391a8a3ada1b7aba52fed7a61da772033"
+    url "https://pypi.python.org/packages/94/4a/db842e7a0545de1cdb0439bb80e6e42dfe82aaeaadd4072f2263a4fbed23/funcsigs-1.0.2.tar.gz"
+    sha256 "a7bb0f2cf3a3fd1ab2732cb49eba4252c2af4240442415b4abce3b87022a8f50"
   end
 
   resource "nose" do
@@ -107,28 +107,28 @@ class Matplotlib < Formula
   end
 
   resource "mock" do
-    url "https://pypi.python.org/packages/source/m/mock/mock-1.3.0.tar.gz"
-    sha256 "1e247dbecc6ce057299eb7ee019ad68314bb93152e81d9a6110d35f4d5eca0f6"
+    url "https://pypi.python.org/packages/source/m/mock/mock-2.0.0.tar.gz"
+    sha256 "b158b6df76edd239b8208d481dc46b6afd45a846b7812ff0ce58971cf5bc8bba"
   end
 
   resource "pbr" do
-    url "https://pypi.python.org/packages/source/p/pbr/pbr-1.8.1.tar.gz"
-    sha256 "e2127626a91e6c885db89668976db31020f0af2da728924b56480fc7ccf09649"
+    url "https://pypi.python.org/packages/c3/2c/63275fab26a0fd8cadafca71a3623e4d0f0ee8ed7124a5bb128853d178a7/pbr-1.10.0.tar.gz"
+    sha256 "186428c270309e6fdfe2d5ab0949ab21ae5f7dea831eab96701b86bd666af39c"
   end
 
   resource "pyparsing" do
-    url "https://pypi.python.org/packages/source/p/pyparsing/pyparsing-2.0.6.tar.gz"
-    sha256 "aea69042752ad7e9c436eea6ae5d40e73642e27f50edb6da4a2532030ef532da"
+    url "https://pypi.python.org/packages/38/bb/bf325351dd8ab6eb3c3b7c07c3978f38b2103e2ab48d59726916907cd6fb/pyparsing-2.1.10.tar.gz"
+    sha256 "811c3e7b0031021137fc83e051795025fcb98674d07eb8fe922ba4de53d39188"
   end
 
   resource "python-dateutil" do
-    url "https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-2.4.2.tar.gz"
-    sha256 "3e95445c1db500a344079a47b171c45ef18f57d188dffdb0e4165c71bea8eb3d"
+    url "https://pypi.python.org/packages/3e/f5/aad82824b369332a676a90a8c0d1e608b17e740bbb6aeeebca726f17b902/python-dateutil-2.5.3.tar.gz"
+    sha256 "1408fdb07c6a1fa9997567ce3fcee6a337b39a503d80699e0f213de4aa4b32ed"
   end
 
   resource "pytz" do
-    url "https://pypi.python.org/packages/source/p/pytz/pytz-2015.7.tar.bz2"
-    sha256 "fbd26746772c24cb93c8b97cbdad5cb9e46c86bbdb1b9d8a743ee00e2fb1fc5d"
+    url "https://pypi.python.org/packages/62/de/3ec428a9a656c4568f8a01b93bda4aff43c3fadfa50356048a62de9ee3b7/pytz-2016.7.tar.gz"
+    sha256 "8787de03f35f31699bcaf127e56ad14c00647965ed24d72dbaca87c6e4f843a3"
   end
 
   resource "six" do
